@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ast0m.github.io/React-App-002"
+  "homepage": "https://ast0m.github.io/React-App-002",
   "name": "file002",
   "version": "0.1.0",
   "private": true,
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
