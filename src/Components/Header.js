@@ -4,7 +4,7 @@ import gsap from 'gsap';
 const Header = () => {
     useEffect(() => {
         // default(x:-100)
-        gsap.fromTo(".title1",{y:-100,opacity:0,duration:4},{opacity:1,y:0, duration:4, ease:"none" })
+        gsap.fromTo(".title1",{y:100,opacity:0,duration:4},{opacity:1,y:0, duration:4, ease:"none" })
         gsap.fromTo(".title2",{x: 100,opacity:0},{opacity:1,x:0, duration:2, ease:"none" })
       
     
